@@ -1,3 +1,9 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  background-color: #333;
+}
 h1,
 h2{
   display: flex;
@@ -11,22 +17,12 @@ h2{
     margin-right: auto;
     width: 70%;
 }
-.crumb {
-    margin-right: 2em;
-    display: inline;
-    padding: 10px;
-    color: whitesmoke;
-    text-decoration: none;
-    border: 3ch;
-    border-color: gray;
-  }
-  li:visited{
-    margin-right: 2em;
-    display: inline;
-    padding: 10px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-  ol{
-    color: white;
-  }
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
