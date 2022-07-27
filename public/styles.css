@@ -1,0 +1,32 @@
+h1,
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+#bison{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.crumb {
+    margin-right: 2em;
+    display: inline;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 3ch;
+    border-color: gray;
+  }
+  li:visited{
+    margin-right: 2em;
+    display: inline;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  ol{
+    color: white;
+  }
