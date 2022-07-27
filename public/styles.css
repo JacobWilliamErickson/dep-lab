@@ -4,6 +4,11 @@ html {
   height: 100%;
   background-color: #333;
 }
+body {
+  background-image: url("https://www.adorama.com/alc/wp-content/uploads/2018/08/san-juans-feature-1024x464.jpg");
+  display: flex;
+  flex-direction: column;
+}
 h1,
 h2 {
   display: flex;
@@ -12,14 +17,14 @@ h2 {
   margin: 10px;
   color: #f2f2f2;
 }
-h1{
+h1 {
   margin-top: 50px;
 }
-#bison {
+#bisonimage {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  height: 500px;
 }
 .navbar {
   overflow: hidden;
@@ -37,4 +42,30 @@ h1{
   text-decoration: none;
   transition-duration: 0.25s;
 }
-
+.navbar a:hover {
+  background: #ccc;
+  color: black;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 5px black;
+  background-color: #222;
+  padding: 5px;
+  height: 500px;
+}
+/* img {
+  height: 500px;
+} */
+row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #555;
+}
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
