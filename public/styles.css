@@ -74,3 +74,8 @@ p {
   margin-left: 10px;
   margin-right: 10px;
 }
+#broken {
+  width: 10vw;
+  height: 10vh;
+  margin: 10px;
+}
