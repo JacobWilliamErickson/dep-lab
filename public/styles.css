@@ -10,6 +10,9 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 h1,
 h2 {
