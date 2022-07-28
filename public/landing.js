@@ -1,3 +1,4 @@
+
 const bisonarr = [
   "https://cdn.britannica.com/66/6666-050-1A5103B6/American-bison-plains-buffalo.jpg",
   "https://www.ecowatch.com/wp-content/uploads/2022/02/bison.jpg",
