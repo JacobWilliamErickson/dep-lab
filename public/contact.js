@@ -5,7 +5,7 @@ brokenbtn=()=>{
         axios
             .get('/api/contact')
             .then(res => {
-            })
+            }).catch()
       }
 }
 let broken = document.querySelector("#broken");
